@@ -1,0 +1,49 @@
+.left, .middle, .right {
+    width: 20%;
+    padding: 1rem;
+    margin: 1.5%;
+    float: left;
+    background-color: aqua;
+}
+body{
+    background-image: linear-gradient(black, orange);
+}
+
+header, footer {
+    background-color: #58638e ;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+img{
+    max-width: 300px;
+    filter: grayscale(0.7) blur(2px);
+}
+img:hover{
+    filter: grayscale(0.7);
+}
+
+.card {
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    background-color: pink;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.transform:hover {
+    transform:rotate(-5deg); 
+    transition: 2s ease-in-out;
+    
+}
+
+.content {
+    background-color: orangered;
+    overflow: auto;
+    padding: 2px;
+    margin: auto;
+    color:rgb(6, 90, 13);
+}
